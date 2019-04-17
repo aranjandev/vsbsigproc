@@ -1,5 +1,5 @@
 Below you can find an outline of how to reproduce my solution for the “VSB Power Line Fault Detection” competition.
-If you run into any trouble with the setup/code or have any questions please contact me at abhishekrnjn@yahoo.com
+If you run into any trouble with the setup/code or have any questions please contact me.
 
 # ARCHIVE CONTENTS
 * code_package.tgz: origial kaggle model upload (contains original code, a pretrained model, documentation)
@@ -19,7 +19,7 @@ The following hardware specs were used to create the original solution (no GPUs 
 * For feature extraction: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz (24 cores) with 16GB RAM
 * For training: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz (8 cores) with 24GB RAM
 
-All the machines ran 
+All the machines ran
 ```
 Description:    Ubuntu 18.04 LTS
 Release:        18.04
@@ -31,10 +31,10 @@ Codename:       bionic
 # SOFTWARE
 Python packages are detailed separately in `./requirements.txt`:
 
-    Python 3.7.2 
+    Python 3.7.2
 
 # DATA SETUP
-Copy the following files from `vsb-power-line-fault-detection.zip` to `./data/input/`. 
+Copy the following files from `vsb-power-line-fault-detection.zip` to `./data/input/`.
 
 * metadata_test.csv
 * metadata_train.csv
@@ -52,7 +52,7 @@ Skip this step if your environment matches the ones used by the solution. If you
 * TESTX: raw test parquet data file
 * TEST_META: test meta file
 * TRAIN_FEATURES: processed training features file
-* TEST_FEATURES: processed testing features file 
+* TEST_FEATURES: processed testing features file
 * TMP_OUTPUT: intermediate outputs (not used currently)
 * SUBMISSION: predicted output csv
 * SAVED_MODEL: final trained model file
@@ -61,10 +61,10 @@ Skip this step if your environment matches the ones used by the solution. If you
 A pretrained model is included in the package at:
 
 `./data/submission/saved_model_70232.npy`
-    
+
 If you need to run the model on a new dataset, just replace `./data/input/metadata_test.csv, ./data/input/test.parquet` files by the new dataset files.
 
-Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the following python invocations will overwrite any existing processed files**. 
+Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the following python invocations will overwrite any existing processed files**.
 
 Rename the existing model
 
@@ -80,7 +80,7 @@ Predict on the newly generated featureset
     python vsb_predict.py
 
 # TRAINING A NEW MODEL AND PREDICTING
-Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the python invocations will overwrite any existing processed or model files**. 
+Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the python invocations will overwrite any existing processed or model files**.
 
     cd code
 
@@ -100,8 +100,8 @@ Predict using the model (takes approx 6.6 minutes with default settings/data)
 
     python vsb_predict.py
 
-# TRAINING AND TESTING A SIMPLIFIED MODEL 
-For faster feature extraction and model training with lower accuracy, a simplified feature set and model parameter set can be used. Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the python invocations will overwrite any existing processed or model files**. 
+# TRAINING AND TESTING A SIMPLIFIED MODEL
+For faster feature extraction and model training with lower accuracy, a simplified feature set and model parameter set can be used. Run the following commands starting from the archive folder. All data source and destination paths are specified in `./code/settings.json`. **Note that all the python invocations will overwrite any existing processed or model files**.
 
     cd code
 
