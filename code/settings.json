@@ -1,0 +1,12 @@
+{   "FEATURE_NJOBS": 20,
+	"XGB_NTHREAD": 12,
+	"TRAINX": "../data/input/train.parquet",
+	"TRAINY": "../data/input/metadata_train.csv",
+	"TESTX": "../data/input/test.parquet",
+	"TEST_META": "../data/input/metadata_test.csv",
+	"TRAIN_FEATURES": "../data/processed/train-features.npy",
+	"TEST_FEATURES": "../data/processed/test-features.npy",
+	"TMP_OUTPUT": "../data/processed/",
+	"SUBMISSION": "../data/submission/submission_result.csv",
+	"SAVED_MODEL": "../data/submission/saved_model.npy"
+}

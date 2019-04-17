@@ -1,0 +1,10 @@
+Index 45839: Phase=1, Win bound=[0.75 1.  ], Delta=8, Radius=256, Word=00001111
+Index 53837: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=8, Word=01001101
+Index 53933: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=8, Word=10101101
+Index 27191: Phase=1, Win bound=[0. 1.], Delta=8, Radius=128, Word=00110111
+Index 31275: Phase=1, Win bound=[0.   0.25], Delta=8, Radius=32, Word=00101011
+Index 45623: Phase=1, Win bound=[0.75 1.  ], Delta=8, Radius=128, Word=00110111
+Index 3074: Phase=0, Win bound=[0. 1.], Delta=8, Radius=8, Word=00000010
+Index 55181: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=256, Word=10001101
+Index 26338: Phase=1, Win bound=[0. 1.], Delta=8, Radius=8, Word=11100010
+Index 7855: Phase=0, Win bound=[0.   0.25], Delta=8, Radius=8, Word=10101111
