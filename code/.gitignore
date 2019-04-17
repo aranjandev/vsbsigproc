@@ -37,6 +37,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 tmp/
+.vscode/
 
 *_i.c
 *_p.c

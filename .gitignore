@@ -37,6 +37,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 tmp/
+.vscode/
 
 *_i.c
 *_p.c
@@ -107,7 +108,6 @@ tmp/
 
 # cached data/code
 __pycache__/
-*/__pycache__/
 
 #data files
 *.parquet
