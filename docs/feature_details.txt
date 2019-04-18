@@ -1,0 +1,20 @@
+Index 45839: Phase=1, Win bound=[0.75 1.  ], Delta=8, Radius=256, Word=00001111 
+Index 53837: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=8, Word=01001101 
+Index 53933: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=8, Word=10101101 
+Index 27191: Phase=1, Win bound=[0. 1.], Delta=8, Radius=128, Word=00110111 
+Index 31275: Phase=1, Win bound=[0.   0.25], Delta=8, Radius=32, Word=00101011 
+Index 45623: Phase=1, Win bound=[0.75 1.  ], Delta=8, Radius=128, Word=00110111 
+Index 3074: Phase=0, Win bound=[0. 1.], Delta=8, Radius=8, Word=00000010 
+Index 55181: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=256, Word=10001101 
+Index 26338: Phase=1, Win bound=[0. 1.], Delta=8, Radius=8, Word=11100010 
+Index 7855: Phase=0, Win bound=[0.   0.25], Delta=8, Radius=8, Word=10101111 
+Index 41015: Phase=1, Win bound=[0.5  0.75], Delta=8, Radius=128, Word=00110111 
+Index 31799: Phase=1, Win bound=[0.   0.25], Delta=8, Radius=128, Word=00110111 
+Index 2794: Phase=0, Win bound=[0. 1.], Delta=4, Radius=128, Word=11101010 
+Index 30767: Phase=1, Win bound=[0.   0.25], Delta=8, Radius=8, Word=00101111 
+Index 3432: Phase=0, Win bound=[0. 1.], Delta=8, Radius=16, Word=01101000 
+Index 49834: Phase=2, Win bound=[0. 1.], Delta=8, Radius=32, Word=10101010 
+Index 40463: Phase=1, Win bound=[0.5  0.75], Delta=8, Radius=32, Word=00001111 
+Index 54702: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=64, Word=10101110 
+Index 36407: Phase=1, Win bound=[0.25 0.5 ], Delta=8, Radius=128, Word=00110111 
+Index 55086: Phase=2, Win bound=[0.   0.25], Delta=8, Radius=256, Word=00101110 

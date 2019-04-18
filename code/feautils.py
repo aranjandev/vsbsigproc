@@ -34,7 +34,7 @@ def default_feaparam():
     return feaparam
 
 # from feature index to feature generation description
-def fea_desc(f_index):
+def feature_detail(f_index):
     # word, radius, delta, win_bound, phase
     TOTAL_WORDS = 2**WORDLEN
     phase = int(np.floor(f_index/(ALL_WIN_BOUNDS.shape[0] * TOTAL_WORDS * RADIICOUNT * DELTA.size)))
@@ -46,15 +46,7 @@ def fea_desc(f_index):
     radius = int(np.floor(leftovers/TOTAL_WORDS))
     leftovers = leftovers - (radius * TOTAL_WORDS)
     word = int(leftovers)
-    print('Index {}: Phase={}, Win bound={}, Delta={}, Radius={}, Word={:08b}'.format(
-        f_index,
-        phase,
-        ALL_WIN_BOUNDS[win_bound],
-        DELTA[delta],
-        RADII[radius],
-        word    
-    ))
-    return {'phase': phase, 'win_bound': win_bound, 'delta': delta, 'radius': radius, 'word': word}
+    return {'phase': phase, 'win_bound': ALL_WIN_BOUNDS[win_bound], 'delta': DELTA[delta], 'radius': RADII[radius], 'word': word}
 
 # pyramidal lbp computation with pyramid of windows
 # radii must be multiple of word
