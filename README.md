@@ -1,5 +1,6 @@
 Below you can find an outline of how to reproduce my solution for the “VSB Power Line Fault Detection” competition. This repo contains source code and documentation for my Gold medal winning solution (4th place):
 https://www.kaggle.com/c/vsb-power-line-fault-detection/leaderboard
+
 If you run into any trouble with the setup/code or have any questions please contact me.
 
 # ARCHIVE CONTENTS
